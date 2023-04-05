@@ -1,0 +1,87 @@
+{
+  "authorName": "Harpreet Singh",
+  "blockText": [
+    {
+      "title": "All your files in one secure location, accessible anywhere.",
+      "description": "Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers."
+    },
+    {
+      "title": "Stay productive, wherever you are",
+      "description": "Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required!"
+    },
+    {
+      "title": "Get early access today",
+      "description": "It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you."
+    }
+  ],
+  "testimonial": {
+    "text": "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
+    "userName": "Kyle Burton",
+    "userDesignation": "Founder & CEO, Huddle"
+  },
+  "links": {
+    "navbar": [
+      {
+        "linkText": "Features",
+        "linkUrl": "#"
+      },
+      {
+        "linkText": "Team",
+        "linkUrl": "#"
+      },
+      {
+        "linkText": "Sign In",
+        "linkUrl": "#"
+      }
+    ],
+    "section": [
+      {
+        "linkText": "See how Fylo works",
+        "linkUrl": "#"
+      }
+    ],
+    "footer": {
+      "columnOne": [
+        {
+          "linkText": "About Us",
+          "linkUrl": "#"
+        },
+        {
+          "linkText": "Jobs",
+          "linkUrl": "#"
+        },
+        {
+          "linkText": "Press",
+          "linkUrl": "#"
+        },
+        {
+          "linkText": "Blog",
+          "linkUrl": "#"
+        }
+      ],
+      "columnTwo": [
+        {
+          "linkText": "Contact Us",
+          "linkUrl": "#"
+        },
+        {
+          "linkText": "Terms",
+          "linkUrl": "#"
+        },
+        {
+          "linkText": "Privacy",
+          "linkUrl": "#"
+        }
+      ]
+    },
+    "social": {
+      "facebook": "https://facebook.com/#",
+      "twitter": "https://twitter.com/#",
+      "instagram": "https://instagram.com/#"
+    }
+  },
+  "contact": {
+    "phone": "+1-543-123-4567",
+    "email": "example@fylo.com"
+  }
+}
