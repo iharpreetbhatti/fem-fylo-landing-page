@@ -1,9 +1,12 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
+import Navbar from "./components/Navbar"
 
 function App() {
   return (
     <div className="App">
-      <h1>React Setup with Tailwind CSS</h1>
+      <header>
+        <Navbar />
+      </header>
     </div>
   )
 }
