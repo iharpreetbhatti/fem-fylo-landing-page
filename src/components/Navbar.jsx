@@ -1,9 +1,8 @@
-import { useState, useEffect } from "react"
 import logo from "../assets/logo.svg"
 
 function Navbar(props) {
   return (
-    <nav className="navbar flex items-center justify-between p-5">
+    <nav className="navbar flex items-center justify-between py-6">
       <div className="navbar-logo">
         <img
           className="logo w-20"
