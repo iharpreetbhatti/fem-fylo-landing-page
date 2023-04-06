@@ -1,14 +1,7 @@
 import { useState, useEffect } from "react"
-import fetchData from "../fetchData"
 import logo from "../assets/logo.svg"
 
-function Navbar() {
-  const [data, setData] = useState(null)
-
-  useEffect(() => {
-    fetchData("data.json", data => setData(data))
-  }, [])
-
+function Navbar(props) {
   return (
     <nav className="navbar flex items-center justify-between p-5">
       <div className="navbar-logo">
@@ -21,8 +14,8 @@ function Navbar() {
       </div>
       <div className="navbar-links font-raleway text-sm w-1/2">
         <ul className="flex justify-between">
-          {data &&
-            data.links.navbar.map((link, index) => (
+          {props.data &&
+            props.data.links.navbar.map((link, index) => (
               <li key={index}>
                 <a
                   className="inline-block"
