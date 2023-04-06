@@ -6,7 +6,7 @@ function Navbar() {
   const [data, setData] = useState(null)
 
   useEffect(() => {
-    fetchData(data => setData(data))
+    fetchData("data.json", data => setData(data))
   }, [])
 
   return (

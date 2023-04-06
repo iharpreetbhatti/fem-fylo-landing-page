@@ -1,5 +1,5 @@
-async function fetchData(setData) {
-  const response = await fetch("data.json")
+async function fetchData(url, setData) {
+  const response = await fetch(url)
   const responseData = await response.json()
   setData(responseData)
 }
