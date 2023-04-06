@@ -1,17 +1,12 @@
 import { useState, useEffect } from "react"
+import fetchData from "../fetchData"
 import logo from "../assets/logo.svg"
 
 function Navbar() {
   const [data, setData] = useState(null)
 
-  async function fetchData() {
-    const response = await fetch("data.json")
-    const responseData = await response.json()
-    setData(responseData)
-  }
-
   useEffect(() => {
-    fetchData()
+    fetchData(data => setData(data))
   }, [])
 
   return (
