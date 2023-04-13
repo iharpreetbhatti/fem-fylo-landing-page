@@ -11,7 +11,7 @@ function Navbar(props) {
           title="Fylo Logo"
         />
       </div>
-      <div className="navbar-links font-raleway text-sm w-1/2">
+      <div className="navbar-links font-raleway text-sm w-1/2 md:w-1/3 lg:w-1/5">
         <ul className="flex justify-between">
           {props.data &&
             props.data.links.navbar.map((link, index) => (

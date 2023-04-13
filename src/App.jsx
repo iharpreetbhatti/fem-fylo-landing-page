@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className="App">
-      <header className="bg-curve-mobile bg-no-repeat bg-bottom">
+      <header className="bg-curve-mobile lg:bg-curve-desktop bg-no-repeat bg-bottom w-full">
         <div className="container mx-auto px-6">
           <Navbar data={data} />
           <Hero data={data} />
