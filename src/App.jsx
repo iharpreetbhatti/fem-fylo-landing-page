@@ -2,6 +2,7 @@ import { useState, useEffect } from "react"
 import fetchData from "./fetchData"
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
+import MainContent from "./components/MainContent"
 
 function App() {
   const [data, setData] = useState(null)
@@ -18,6 +19,10 @@ function App() {
           <Hero data={data} />
         </div>
       </header>
+      <main>
+        <MainContent data={data} />
+      </main>
+      <footer></footer>
     </div>
   )
 }
