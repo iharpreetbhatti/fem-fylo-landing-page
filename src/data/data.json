@@ -2,14 +2,17 @@
   "header": {
     "navigation": [
       {
+        "id": 1,
         "linkText": "Features",
         "linkUrl": "#"
       },
       {
+        "id": 2,
         "linkText": "Team",
         "linkUrl": "#"
       },
       {
+        "id": 3,
         "linkText": "Sign In",
         "linkUrl": "#"
       }
@@ -43,32 +46,39 @@
     },
     "explore": [
       {
+        "id": 1,
         "linkText": "About Us",
         "linkUrl": "#"
       },
       {
+        "id": 2,
         "linkText": "Jobs",
         "linkUrl": "#"
       },
       {
+        "id": 3,
         "linkText": "Press",
         "linkUrl": "#"
       },
       {
+        "id": 4,
         "linkText": "Blog",
         "linkUrl": "#"
       }
     ],
     "quickLinks": [
       {
+        "id": 1,
         "linkText": "Contact Us",
         "linkUrl": "#"
       },
       {
+        "id": 2,
         "linkText": "Terms",
         "linkUrl": "#"
       },
       {
+        "id": 3,
         "linkText": "Privacy",
         "linkUrl": "#"
       }
