@@ -13,17 +13,16 @@ function Navbar({ links }) {
       </div>
       <div className="navbar-links font-raleway text-sm w-1/2 md:w-1/3 lg:w-1/5">
         <ul className="flex justify-between">
-          {links &&
-            links.map(link => (
-              <li key={link.id}>
-                <a
-                  className="inline-block"
-                  href={link.linkUrl}
-                >
-                  {link.linkText}
-                </a>
-              </li>
-            ))}
+          {links.map(link => (
+            <li key={link.id}>
+              <a
+                className="inline-block"
+                href={link.linkUrl}
+              >
+                {link.linkText}
+              </a>
+            </li>
+          ))}
         </ul>
       </div>
     </nav>
