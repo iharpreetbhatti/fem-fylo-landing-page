@@ -1,6 +1,6 @@
 import logo from "../assets/logo.svg"
 
-function Navbar(props) {
+function Navbar({ links }) {
   return (
     <nav className="navbar flex items-center justify-between py-6">
       <div className="navbar-logo">
@@ -13,9 +13,9 @@ function Navbar(props) {
       </div>
       <div className="navbar-links font-raleway text-sm w-1/2 md:w-1/3 lg:w-1/5">
         <ul className="flex justify-between">
-          {props.data &&
-            props.data.links.navbar.map((link, index) => (
-              <li key={index}>
+          {links &&
+            links.map(link => (
+              <li key={link.id}>
                 <a
                   className="inline-block"
                   href={link.linkUrl}

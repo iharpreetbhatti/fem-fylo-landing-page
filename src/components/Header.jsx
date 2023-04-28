@@ -1,13 +1,16 @@
 import React from "react"
-import Navbar from "./components/Navbar"
-import Hero from "./components/Hero"
+import Navbar from "./Navbar"
+import Hero from "./Hero"
 
-function Header() {
+function Header({ content }) {
   return (
     <header className="header">
       <div className="container mx-auto px-6">
-        <Navbar data={data} />
-        <Hero data={data} />
+        <Navbar links={content.navigation} />
+        <Hero
+          title={content.hero.title}
+          description={content.hero.description}
+        />
       </div>
     </header>
   )
