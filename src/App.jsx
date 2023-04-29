@@ -8,8 +8,8 @@ function App() {
   return (
     <div className="App">
       <Header content={data.header} />
-      {/* <MainContent content={data.mainContent} />
-      <Footer content={data.footer} /> */}
+      <MainContent content={data.mainContent} />
+      {/* <Footer content={data.footer} /> */}
     </div>
   )
 }
