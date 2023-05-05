@@ -1,14 +1,15 @@
-import Image from "../assets/illustration-1.svg"
+import Illustration from "./Illustration"
+import ImageURL from "../assets/illustration-1.svg"
 
 function Hero({ title, description }) {
   const handleCTA = e => e.preventDefault()
   return (
     <div className="hero flex flex-col lg:flex-row-reverse lg:items-center lg:gap-24 py-10 lg:py-20">
       <div className="hero-image mt-10">
-        <img
+        <Illustration
           className="mx-auto mb-10"
-          src={Image}
-          alt="Fylo Illustration"
+          url={ImageURL}
+          altText="Fylo Illustration"
         />
       </div>
       <div className="hero-content text-center lg:text-left mb-20 lg:mb-0">
